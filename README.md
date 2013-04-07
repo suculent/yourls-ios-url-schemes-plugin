@@ -1,7 +1,7 @@
 yourls-ios-url-schemes-plugin
 =============================
 
-Plugin for YOURLS allowing redirects to URLs starting with itms-apps:// and itms-services://
+Plugin for <a href="yourls.org">YOURLS</a> allowing redirects to URLs starting with itms-apps:// and itms-services://
 
 Install
 -------
@@ -21,7 +21,8 @@ Plugin Name: YOURLS iOS URL Schemes
 Plugin URI: https://github.com/suculent/yourls-ios-url-schemes-plugin
 Description: Support for itms-services URL scheme for linking to iOS Enterprise App Installation Manifest
 Version: 1.1
-Author: Matej Sychra (suculent)    Author URI: http://www.github.com/suculent/
+Author: Matej Sychra (suculent)
+Author URI: http://www.github.com/suculent/
 */
 
 // No direct call
