@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Install iPhone Apps
-Plugin URI: http://www.github.com/suculent/
+Plugin URI: https://github.com/suculent/yourls-ios-url-schemes-plugin
 Description: Support for itms-services URL scheme for linking to iOS Enterprise App Installation Manifest
 Version: 1.1
 Author: Suculent
-Author URI: http://www.github.com/suculent/yourls_ios_protocols
+Author URI: ttp://www.github.com/suculent/
 */
 
 // No direct call
