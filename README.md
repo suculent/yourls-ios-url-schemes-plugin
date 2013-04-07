@@ -11,7 +11,7 @@ In this new directory, create a blank file named plugin.php
 In this new file, cut and paste the following code
 Go to the Plugins administration page and activate the plugin
 
-@
+<code>
 <?php
 /*
 Plugin Name: Install iPhone Apps
@@ -33,5 +33,4 @@ yourls_add_filter( 'is_allowed_protocol', 'suculent_itms_protocols' );
    	return array('itms-apps://', 'itms-services://');
    }
    ?>
-
-@
+</code>
