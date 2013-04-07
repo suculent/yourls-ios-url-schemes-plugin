@@ -3,6 +3,8 @@ yourls-ios-url-schemes-plugin
 
 Plugin for URL shortener <a href="http://yourls.org">YOURLS</a> that allows redirects to URLs starting with itms-apps:// and itms-services://
 
+This plugin requires YOURLS 1.6 (http://yourls.org) or higher
+
 Install
 -------
 
