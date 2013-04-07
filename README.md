@@ -6,7 +6,7 @@ Plugin for YOURLS allowing redirects to URLs starting with itms-apps:// and itms
 Install
 -------
 
-Copy the <code>ios-url-schemes</code folder into <code>/user/plugins</code>
+Copy the <code>ios-url-schemes</code> folder into <code>/user/plugins</code>
 Go to the Plugins administration page and activate the plugin
 
 
