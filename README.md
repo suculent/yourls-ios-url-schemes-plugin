@@ -13,6 +13,7 @@ Go to the Plugins administration page and activate the plugin
 The Code
 -------
 
+```php
 
     <?php
     /*
@@ -30,9 +31,9 @@ The Code
     // Hook our custom function into the 'is_allowed_protocol' event
     yourls_add_filter( 'is_allowed_protocol', 'suculent_itms_protocols' );
 
-       // This applies for both iOS protocols, apps for iTunes listing and services for installation
-       function suculent_itms_protocols( $args ) {
-       	return array('itms-apps://', 'itms-services://');
-       }
-       ?>
-</code>
+    // This applies for both iOS protocols, apps for iTunes listing and services for installation
+    function suculent_itms_protocols( $args ) {
+        return array('itms-apps://', 'itms-services://');
+    }
+    ?>
+```
