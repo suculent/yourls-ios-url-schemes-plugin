@@ -1,7 +1,7 @@
 yourls-ios-url-schemes-plugin
 =============================
 
-Plugin for <a href="http://yourls.org">YOURLS</a> allowing redirects to URLs starting with itms-apps:// and itms-services://
+Plugin for URL shortener <a href="http://yourls.org">YOURLS</a> that allows redirects to URLs starting with itms-apps:// and itms-services://
 
 Install
 -------
