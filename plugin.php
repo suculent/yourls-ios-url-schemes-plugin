@@ -18,3 +18,4 @@ yourls_add_filter( 'is_allowed_protocol', 'suculent_itms_protocols' );
 function suculent_itms_protocols( $args ) {
 	return array('itms-apps://', 'itms-services://');
 }
+?>
