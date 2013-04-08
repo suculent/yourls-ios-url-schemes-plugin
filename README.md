@@ -17,4 +17,4 @@ Install
 -------
 
 Copy the <code>ios-url-schemes</code> folder into <code>/user/plugins</code>
-Go to the Plugins administration page and activate the plugin
+Go to the Plugins administration page inside YOURLS Admin and activate the plugin.
