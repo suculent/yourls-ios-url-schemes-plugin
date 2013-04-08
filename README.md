@@ -1,42 +1,20 @@
-yourls-ios-url-schemes-plugin
+iOS URL Schemes Plugin
 =============================
 
-Plugin for URL shortener <a href="http://yourls.org">YOURLS</a> that allows redirects to URLs starting with itms-apps:// and itms-services://
+Simple plugin for <a href="http://yourls.org">YOURLS</a> URL shortener. Plugin adds support for redirects to URLs starting with itms-apps:// and itms-services://
 
 This plugin requires YOURLS 1.6 (http://yourls.org) or higher
+
+Download
+--------
+The plugin does all you need to redirect to itms-apps and itms-services URLs. You can add own protocols by adding your custom items to the <code>$protocols</code> array.
+
+1. Download the plugin using the <b>Download</b> button on the right side  of the GitHub page.
+2. Copy to your plugins folder.
+3. Activate the plugin in <code>YOURLS_ROOT/admin/plugins.php</code>
 
 Install
 -------
 
 Copy the <code>ios-url-schemes</code> folder into <code>/user/plugins</code>
 Go to the Plugins administration page and activate the plugin
-
-
-The Code
--------
-
-```php
-
-<?php
-/*
-Plugin Name: YOURLS iOS URL Schemes
-Plugin URI: https://github.com/suculent/yourls-ios-url-schemes-plugin
-Description: Support for itms-services URL scheme for linking to iOS Enterprise App Installation Manifest
-Version: 1.1
-Author: Matej Sychra (suculent)
-Author URI: http://www.github.com/suculent/
-
-*/
-
-// No direct call
-if( !defined( 'YOURLS_ABSPATH' ) ) die();
-
-// Hook our custom function into the 'is_allowed_protocol' event
-yourls_add_filter( 'is_allowed_protocol', 'suculent_itms_protocols' );
-
-// This applies for both iOS protocols, apps for iTunes listing and services for installation
-function suculent_itms_protocols( $args ) {
-   return array( 'itms-apps://', 'itms-services://' );
-}
-?>
-```
