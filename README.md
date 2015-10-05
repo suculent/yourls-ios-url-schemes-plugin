@@ -10,11 +10,11 @@ Download
 The plugin does all you need to redirect to itms-apps and itms-services URLs. You can add own protocols by adding your custom items to the <code>$protocols</code> array.
 
 1. Download the plugin using the <b>Download</b> button(s) above.
-2. Copy to your plugins folder.
-3. Activate the plugin in <code>YOURLS_ROOT/admin/plugins.php</code>
+2. Copy to your YOURLS installation root into `users/plugins`.
+3. Activate the plugin in 'Manage Plugins' <code>YOURLS_ROOT/admin/plugins.php</code>
 
 Install
 -------
 
-Copy the <code>ios-url-schemes</code> folder into <code>/user/plugins</code>
+Copy the <code>ios-url-schemes</code> folder into <code>user/plugins</code>
 Go to the Plugins administration page inside YOURLS Admin and activate the plugin.
