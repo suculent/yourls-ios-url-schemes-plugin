@@ -26,7 +26,7 @@ yourls_add_filter( 'is_allowed_protocol', 'suculent_itms_protocols' );
 
 function suculent_itms_protocols( $args, $url ) {
 	/* List of protocols added by this plugin */
-	$protocols = array( 'itms-services://', 'itms-apps://');
+	$protocols = array( 'itms-services://', 'itms-apps://', 'http://', 'https://');
 	
 	/* Walk through the list and check if URL starts with one of known protocols. */
 	foreach ( $protocols as $protocol ) {	
